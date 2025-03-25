@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Ctext x='0' y='50' font-size='50'%3E💖%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            background-image: url('https://img.freepik.com/free-vector/watercolor-abstract-floral-background_52683-134424.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+        }
+        .dialog-box {
+            background-color: pink;
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            display: none;
+            font-weight: bold;
+            font-size: 20px;
+            opacity: 0.6;
+        }
+
+        .dialog-box button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .message {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dialog-box" id="dialogBox">
+        <p>Will you be mine? 💖🥺</p>
+        <button id="yesButton">Yes</button>
+        <button id="noButton">No</button>
+        <div class="message" id="message"></div>
+    </div>
+    <script>        
+        function showDialog() {
+            document.getElementById('dialogBox').style.display = 'block';
+        }
+        document.getElementById('yesButton').addEventListener('click', function() {
+            document.getElementById('message').innerText = "Hurrayyy, you are mine now! 😘💖";
+        });
+        document.getElementById('noButton').addEventListener('click', function() {
+            document.getElementById('message').innerText = "Invalid 🙁";
+        });
+        window.onload = showDialog;
+    </script>
+</body>
+</html>
+
