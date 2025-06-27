@@ -1,35 +1,52 @@
+<!-- Profile Header -->
 <div align="center">
 
-# Vardaan-02
+  <h1>🚀 Vardaan-02</h1>
 
-<!-- Snake animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vardaan-02/Vardaan-02/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vardaan-02/Vardaan-02/output/github-contribution-grid-snake.svg#gh-light-mode-only">
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Vardaan-02/Vardaan-02/output/github-contribution-grid-snake.svg">
-</picture>
+  <!-- GitHub Contribution Snake Animation -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vardaan-02/Vardaan-02/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vardaan-02/Vardaan-02/output/github-contribution-grid-snake.svg">
+    <img 
+      alt="Animated GitHub Contribution Snake" 
+      src="https://raw.githubusercontent.com/Vardaan-02/Vardaan-02/output/github-contribution-grid-snake.svg" 
+      style="max-width: 100%; height: auto;" 
+    />
+  </picture>
 
-<br/>
+  <br/>
 
-<!-- Visitor Counter -->
-<div style="display: flex; align-items: center; justify-content: center;">
-  <img alt="visitors counter" src="https://profile-counter.glitch.me/Vardaan-02/count.svg">
+  <!-- Visitor Counter -->
+  <img 
+    src="https://profile-counter.glitch.me/Vardaan-02/count.svg" 
+    alt="Visitor Counter" 
+    style="margin-top: 10px;" 
+  />
+
 </div>
 
-</div>
 
 ---
 
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%" />
 
-<div align="center">
-  <img src="https://media.tenor.com/jU3MNsXcMbUAAAAd/spider-man-spiderman.gif" width="120"/>
+<!-- GitHub Stats -->
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;">
 
-  <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Vardaan-02&theme=radical&hide_border=false&include_all_commits=true&count_private=true" />
-  <img src="https://streak-stats.demolab.com?user=Vardaan-02&theme=radical&hide_border=false" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vardaan-02&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=Vardaan-02&theme=radical&hide_border=false&include_all_commits=true&count_private=true" 
+    alt="GitHub Stats" 
+    style="width: 420px; max-width: 100%;"
+  />
+
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vardaan-02&theme=radical&hide_border=false&layout=compact" 
+    alt="Top Languages" 
+    style="width: 420px; max-width: 100%;"
+  />
+
 </div>
+
 
 ---
 
